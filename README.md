@@ -1,5 +1,8 @@
 # Projeto-08-OCR-Azure-Vision-Studio-Copilot-And-Gpt4
 
+
+![Capa_Projeto_08](https://github.com/user-attachments/assets/ed9321b2-4ac6-474b-9ca0-f0cadf48a87e)
+
 Esse projeto faz análises de imagens com conteúdo e retorna as informações contidas. Para testes utilizo o Microsoft azure vision, o Microsoft Copilot e o ChatGpt-4
 
 
