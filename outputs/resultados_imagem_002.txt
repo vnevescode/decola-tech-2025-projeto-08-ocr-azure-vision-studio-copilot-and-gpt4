@@ -1,0 +1,40 @@
+Azure AI Vision:
+
+SérieRobertC.Martin
+ALTABOOKS
+EDITORA
+ArquiteturaLimpa
+OGuiadoArtesãopara
+EstruturaeDesigndeSoftware
+RobertC.Martin
+ComcontribuiçõesdeJamesGrenningeSimonBrown
+PrefáciodeKevlinHenney
+EpílogodeJasonGorman
+
+---
+
+Copilot:
+
+O texto na imagem diz:
+
+**"Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software Autor: Robert C. Martin Contribuições de James Grenning e Simon Brown Série Robert C. Martin Editora: Alta Books
+
+Inclui prefácio por Kevlin Henney e epílogo por Jason Gorman."**
+
+
+---
+
+ChatGPT-4:
+
+Série Robert C. Martin
+ALTA BOOKS EDITORA
+
+Arquitetura Limpa
+O Guia do Artesão para Estrutura e Design de Software
+
+Robert C. Martin
+Com contribuições de James Grenning e Simon Brown
+
+Prefácio de Kevlin Henney
+Epílogo de Jason Gorman
+
