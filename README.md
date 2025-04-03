@@ -67,6 +67,7 @@ Para as imagens a seguir:
 ## Imagem I
 
 ![Parque das Esculturas](https://github.com/user-attachments/assets/2486e912-3f7d-47ee-b858-e7f0e381a35b)
+![image](https://github.com/user-attachments/assets/f0a82243-38a4-4281-baa8-cb0182c0add1)
 
 ## Azure AI Vision:
 
