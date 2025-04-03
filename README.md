@@ -50,10 +50,181 @@ Este projeto demonstra o uso de **OCR com Azure AI Vision**, complementado com a
 - Visualize e baixe o texto reconhecido em JSON ou copie manualmente
 
 
-### 4. Interpretação com Chat GPT-4 (Azure OpenAI)
+### 4. Interpretação com Chat GPT-4 e GPT-4 Azure OpenAI
 
 - Os textos extraídos foram enviados para o **Chat Playground** do Azure AI Foundry
-- Prompts utilizados:
-  ```text
-  Abaixo está um texto extraído de imagem com OCR. Faça um resumo e identifique possíveis ações ou insights empresariais.
-  [cole o conteúdo extraído aqui]
+- Também para o prompt do ChatGPT-4 Premium 
+
+---
+
+# Resultados :
+
+Para as imagens a seguir:
+
+## Imagem I
+
+![Parque das Esculturas](https://github.com/user-attachments/assets/2486e912-3f7d-47ee-b858-e7f0e381a35b)
+
+## Azure AI Vision:
+
+```bash
+
+PARQUEDEESCULTURASDE
+FRANCISCOBRENNAND
+FRANCISCOBRENNANDSCULPTUREPARK
+Foiinauguradonoano2000comomarcocomemorativodoRecife
+aos500anosdoDescobrimentodoBrasil.Abrigaobrasdoartista
+FranciscoBrennand,sendodestaquea"ColunadeCristal".
+Itwasopenedin2000asacommemorativemilestoneofthe500thanniversaryof
+BrazilDiscoveryDay.ItholdsFranciscoBrennand'ssculptures,which"Crystal
+Column"isthebiggestone.
+```
+
+## Copilot
+
+```bash
+O texto na imagem é:
+
+**"PARQUE DE ESCULTURAS DE FRANCISCO BRENNAND FRANCISCO BRENNAND SCULPTURE PARK
+
+Foi inaugurado no ano 2000 como marco comemorativo do Recife aos 500 anos do Descobrimento do Brasil. Abriga obras do artista Francisco Brennand, sendo destaque a 'Coluna de Cristal'.
+
+It was opened in 2000 as a commemorative milestone to the 500th anniversary of Brazil Discovery Day. It holds Francisco Brennand's sculptures, which 'Crystal Column' is the biggest one."**
+
+Uma bela homenagem à arte e à história do Recife! Conhecer o Parque de Esculturas deve ser uma experiência incrível. O que mais você gostaria de saber sobre o local ou o artista?
+```
+
+
+# ChatGPT-4
+
+```bash
+PARQUE DE ESCULTURAS DE FRANCISCO BRENNAND
+FRANCISCO BRENNAND SCULPTURE PARK
+
+Foi inaugurado no ano 2000 como marco comemorativo do Recife aos 500 anos do Descobrimento do Brasil. Abriga obras do artista Francisco Brennand, sendo destaque a "Coluna de Cristal".
+
+It was opened in 2000 as a commemorative milestone of the 500th anniversary of Brazil Discovery Day. It holds Francisco Brennand's sculptures, which "Crystal Column" is the biggest one.
+
+```
+
+---
+
+## Imagem II
+
+![image](https://github.com/user-attachments/assets/e7126d50-40a6-4524-82fe-ac97674d7be4)
+
+
+## Azure AI Vision:
+
+```bash
+SérieRobertC.Martin
+ALTABOOKS
+EDITORA
+ArquiteturaLimpa
+OGuiadoArtesãopara
+EstruturaeDesigndeSoftware
+RobertC.Martin
+ComcontribuiçõesdeJamesGrenningeSimonBrown
+PrefáciodeKevlinHenney
+EpílogodeJasonGorman
+```
+
+## Copilot
+
+```bash
+O texto na imagem diz:
+
+**"Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software Autor: Robert C. Martin Contribuições de James Grenning e Simon Brown Série Robert C. Martin Editora: Alta Books
+
+Inclui prefácio por Kevlin Henney e epílogo por Jason Gorman."**
+```
+
+
+# ChatGPT-4
+
+```bash
+Série Robert C. Martin
+ALTA BOOKS EDITORA
+
+Arquitetura Limpa
+O Guia do Artesão para Estrutura e Design de Software
+
+Robert C. Martin
+Com contribuições de James Grenning e Simon Brown
+
+Prefácio de Kevlin Henney
+Epílogo de Jason Gorman
+```
+---
+
+## Imagem III
+
+![equacao_2_grau_foto](https://github.com/user-attachments/assets/7caa098a-4f3b-485c-829b-5bc4d0e3c487)
+
+
+## Azure AI Vision:
+
+```bash
+x2-3x-54=0
+A=b2-4ac
+a=1
+A=(-3)2-4·1·(-54)
+Sãoduasraízesreaisedistintas.
+b=-3
+A=9+216
+Vamoscontinuar!
+C=-54
+A=225
+3+15
+X1=2===9
+x==
+-b+VA
+-(-3)₺V225
+x=-
+3+15
+2a
+X=
+2.1
+2
+3-15
+X2=2====-6
+S={9,-6}
+```
+
+## Copilot
+
+![image](https://github.com/user-attachments/assets/2b8432ff-284d-45ed-b256-435f61e60c13)
+
+
+
+## ChatGPT-4
+
+```bash
+Claro! A imagem mostra a resolução completa de uma equação do 2º grau usando a fórmula de Bhaskara. Aqui está o texto transcrito com os principais passos:
+
+x² - 3x - 54 = 0
+
+a = 1
+b = -3
+c = -54
+
+Δ = b² - 4ac
+Δ = (-3)² - 4 · 1 · (-54)
+Δ = 9 + 216
+Δ = 225 (em verde)
+
+São duas raízes reais e distintas.
+Vamos continuar! (em verde)
+
+x = (-b ± √Δ) / 2a
+x = (-(-3) ± √225) / (2 · 1)
+x = (3 ± 15) / 2
+
+x₁ = (3 + 15) / 2 = 18 / 2 = 9
+x₂ = (3 - 15) / 2 = -12 / 2 = -6
+
+---
+
+S = {9, -6} (em negrito)
+
+```
